@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat:wght@100;200&family=Roboto:wght@100&display=swap');
+:root{
+    --red: #e61610;
+    --white: #ffffff;
+    --black: #000000;
+    --gray:  #303030;
+
+}
+
+.bgcg{
+    background-color: var(--gray);
+}
+.bgcw{
+    background-color: var(--white);
+}
+
+.bgcb{
+    background-color: var(--black);
+}
+.bgcr{
+    background-color: var(--red);
+}
+
+nav{
+    padding-top: 0%;
+}
+
+.grow1{
+flex-grow: 1;
+}
+
+.w35{
+    width: 35%;
+}
+
+main{
+    background-color: var(--gray);
+    position: relative;
+    top:3.8rem;
+    margin-bottom: 3.9rem;
+}
+
+.bt{
+background-color: var(--black);
+color: var(--white);
+padding: 0;
+border: solid 1px var(--white);
+height: 3rem;
+
+}
+
+.link{
+    text-decoration: none;
+}
+.w-55{
+    width: 55%;
+}
+.w-10{
+    width: 10%;
+}
+.w-5{
+    width:5%
+}
+.w-15{
+    width: 15%;
+}
+.w-45{
+    width: 45%;
+}
+
+.w-35{
+    width: 35%;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.img-w{
+    max-width: 100%;
+    height: auto;
+}
+
+.vh-60{
+ height: 50vh;
+}
+
+.box-s1{
+    box-shadow: 0 0 10px 5px rgba(17, 14, 14, 0.801);
+    border-radius: 6px;
+}
+
+
+footer a{
+    text-decoration:none;
+    color: var(--white);
+}
+a:hover{
+    color:#888383;
+}
+
+.c-red{
+    color:var(--red);
+}
+
+.vh{
+height: 60vh;
+width: 100vw;
+}
+
+.p-relative
+{
+    position: relative;
+}
+.p-abs
+{
+    position:absolute;
+}
+
+.ml-0{
+    margin-left: 0;
+}
+
+.form{
+    background-color: var(--gray);
+    position: relative;
+    top:3.8rem;
+    margin-bottom: 3.9rem;
+}
+
+
+
+input[type="text"], 
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="file"],
+input[type="password"],
+select,
+textarea{
+    border: 1px solid var(--white);
+    border-radius: .3rem;
+    background-color: var(--gray);
+    color:var(--white)
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: 0;
+    border: 1px solid var(--red);
+}
+
+
+.errofont{
+    color: #f00;
+}
+
+.erroinput{
+    border: solid 1px #F00;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.w25{
+    width: 25%;
+}
+
+.borda{
+    border: solid #F00;
+}
+
+.border-radius3{
+    border-radius: .4rem;
+}
+
+.quantidade{
+    background: none;
+    color: #fff;
+    width: 2rem;
+    border: none;
+}
+
+.quantidade:focus{
+    border: none;
+}
+
+.botoes.focus, .botoes:focus {
+    box-shadow: 0 0 0.6rem 0.1rem rgba(31, 224, 5, 0.74) !important;
+}
+
+.cupcep.focus, .cupcep:focus{
+    box-shadow: 0 0 0.6rem 0.2rem rgba(31, 224, 5, 0.74) !important;
+    background-color: #303030;
+}
+
+.borderN{
+    border: none;
+}
+

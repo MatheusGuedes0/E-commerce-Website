@@ -1,0 +1,59 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .w-55 {
+        width: 100%;
+    }
+
+    .w-10 {
+        width: 100%;
+    }
+
+    .w-5 {
+        width: 100%
+    }
+
+    .w-15 {
+        width: 100%;
+    }
+
+    .w-45 {
+        width: 100%;
+    }
+
+    .w-35 {
+        width: 100%;
+    }
+
+    .w-20 {
+        width: 100%;
+    }
+    .w-90{
+        width: 100%;
+    }
+    .w25{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .fixed-top {
+        position: static;
+    }
+
+    th{
+        display: none;
+    }
+
+    tr{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

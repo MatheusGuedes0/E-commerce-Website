@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "titulo": "Console Playstation 5 Sony, SSD 825GB, Controle sem fio DualSense, Edição Digital, Branco - 1214B",
+        "preco": "R$ 3.719,91",
+        "aPrazo": " R$ 3.919,91",
+        "parcela": "R$ 326,65",
+        "quantidade": 1,
+        "imagem": "/img/console-sony-playstation-5-edicao-di.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "Nintendo Switch 32GB, 1x Joycon, Cinza - HAD S KAAA2 BRA",
+        "preco": "R$ 2.199,90",
+        "aPrazo": " R$ 2.519,91",
+        "parcela": "R$ 209,99",
+        "quantidade": 1,
+        "imagem": "/img/nintendo-switch-32gb-1x-joycon-cinza.jpg"
+    },
+    {
+        "id": 3,
+        "titulo":"Notebook Gamer Acer Nitro 5 Intel Core I7-11800H, 16GB RAM, NVIDIA RTX3050, SSD 512GB, 15.6' LED FHD IPS, Linux, Preto - AN515-57-795J",
+        "preco": "R$ 5.578,94",
+        "aPrazo": " R$ 5.719,91",
+        "parcela": "R$ 476,65",
+        "quantidade": 1,
+        "imagem": "/img/notebook-gamer-acer-nitro-5-intel-core-i7.png"
+    },
+    {
+        "id": 4,
+        "titulo": "Smart TV Philco 32 Polegadas, LED HD, HDMI e USB, Roku TV, Dolby Audio - 99323107",
+        "preco": "R$ 949,99",
+        "aPrazo": " R$ 1.119,91",
+        "parcela": "R$ 93,32",
+        "quantidade": 1,
+       "imagem":  "/img/smart-tv-philco-32-polegadas-led-hd-.png"
+    },
+    {
+        "id": 5,
+        "titulo": "Smartphone Motorola Moto E13, 64GB, 4GB RAM, Octa Core, Câmera 13MP, Tela de 6.5, Grafite - PAXV0009BR",
+        "preco": "R$ 599,90",
+        "aPrazo": "R$ 810,90",
+        "parcela": "R$ 67,57",
+        "quantidade": 1,
+        "imagem": "/img/smartphone-motorola-moto-e13-64gb-2g.png"
+    },
+    {
+        "id": 6,
+        "titulo": "Amazon Fire TV Stick Lite 2ª Geração Full HD, HDMI, Bluetooth, com Controle Remoto por Voz com Alexa - B091G767YB",
+        "preco": "R$ 208,05",
+        "aPrazo": "R$ 350,90",
+        "parcela": "R$ 29,24",
+        "quantidade": 1,
+        "imagem": "/img/Amazon-Fire-TV-Stick-Lite-2-Gera-removebg-preview.jpg"
+    },
+    {
+        "id": 7,
+        "titulo": "Computador gamer fatality, intel I7-13700KF, intel ARC A770 16GB, 16GB DDR5, SSD M.2 1TB",
+        "preco": "R$ 14.253,91",
+        "aPrazo": "R$ 16.013,91",
+        "parcela": "R$ 1.334,49",
+        "quantidade": 1,
+        "imagem": "/img/gabinete-gamer-hx600-black-rgb-001_4_15.png"
+    },
+    {
+        "id": 8,
+        "titulo": "Computador Pichau Highflyer, Intel I9-13900KF, GeForce RTX 4070 Ti 12GB, 32GB DDR5, SSD M.2 2TB",
+        "preco": "R$ 15.699,89",
+        "aPrazo": "R$ 17.013,91",
+        "parcela": "R$ 1.417,82",
+        "quantidade": 1,
+        "imagem": "/img/fgabinete-hx600-white-rtx-jpg001_2_19.png"
+    }
+    ]

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/4e5b718bb7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+    <title>Cadastro de conta-NinjaDrive</title>
+</head>
+
+<body>
+    <div id="appHeader">
+    </div>
+    <section>
+        <form id="my-form"   class="form text-light ">
+            <fieldset class="container w-55">
+                <div class="text-center">
+                    <i class="bi bi-file-person c-red fs-1"></i>
+                    <legend>Crie sua conta</legend>
+                    <p class="">Informe os seus dados abaixo para criar sua conta.</p>
+                </div>
+                <div>
+                    <div class="row mb-4">
+                        <div class=" col-md-6">
+                            <label class="w-35" for="nome" >Nome Completo:</label>
+                            <input type="text" class=" required w-35" id="name" name="nome">
+                            <span class="error-message" id="erro-nome"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="w-20" for="apelido" >Apelido:</label>
+                            <input type="text" class=" required w-35" id="apelido" name="apelido">
+                            <span class="error-message" id="erro-apelido"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <label class="w-35" for="cpf" >CPF:</label>
+                            <input type="text" class="required w-35" id="cpf" name="cpf">
+                            <span class="error-message" id="erro-cpf"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="w-20" for="tel">Telefone: </label>
+                            <input type="text" class="required w-35" id="tel" name="tel">
+                            <span class="error-message" id="erro-tel"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class=" col-md-6">
+                            <label class="w-35" for="dataNasc">Data de nascimento: </label>
+                            <input type="date"  class="required w-35" id="dataNasc" name="dataNasc">
+                            <span class="error-message" id="erro-dataNasc"></span>
+                        </div>
+                        <div class=" col-md-6">
+                            <div>
+                                <label class="w-20" for="genero">Genêro:</label>
+                                <select class="required w-35"  id="genero"  name="genero">
+                                    <option>Escolha uma opção</option>
+                                    <option>Homem</option>
+                                    <option>Mulher</option>
+                                    <option>Trans</option>
+                                    <option>Não-binário</option>
+                                    <option>Outro</option>
+                                </select>
+                                <span class="error-message" id="erro-genero"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="text-center">
+                    <legend>Endereço</legend>
+                    <p class="text-danger">Opcional (valide agora ou na hora da compra!)</p>
+                </div>
+                <div class="row mb-4">
+                    <div class="  col-md-6">
+                        <label class="w-20" for="">Rua: </label>
+                        <input type="text" name="rua" id="rua">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="w-20" for="">Numero: </label>
+                        <input type="text" name="numero" id="numero">
+                    </div>
+
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <label class="w-20" for="">Bairro: </label>
+                        <input type="text" name="bairro" id="bairro">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="w-20" for="">Cidade: </label>
+                        <input type="text" name="cidade" id="cidade">
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <label class="w-20" for="">Estado: </label>
+                        <input type="text" name="estado" id="estado">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="w-20"for="">CEP: </label>
+                        <input type="text" name="cep" id="cep">
+                    </div>
+                </div>
+                <div class="text-center">
+                    <legend>Login</legend>
+                </div>
+                <div class="row mb-4">
+
+                    <div class=" mb-4">
+                        <div>
+                            <label class="w-15" for="email">E-mail: </label>
+                            <input type="email" class="required"  id="email" name="email">
+                            <span class="error-message" id="erro-Email"></span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div>
+                            <label class="w-15" for="senha">Senha: </label>
+                            <input type="password" class="required" id="senha" name="senha">
+                            <span class="error-message" id="erro-Senha"></span>
+                        </div>
+                    </div>
+
+                    <div class=" mb-4">
+                        <label class="w-15" for="confirma">Confirmar Senha: </label>
+                        <input type="password"  class="required" id="confirma" name="confirma">
+                        <span class="error-message" id="erro-Confirma"></span>
+                    </div>
+                </div>
+                <div class=" mb-4">
+                    <div class="mb-4">
+                        <input type="checkbox" class="">
+                        <label for="">Desejo receber ofertas da NinjaDrive por E-mail</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="required" id="termos" name="termos">
+                        <span class="error-message" id="erro-Termos"></span>
+                        <label for="termos">Estou ciente e CONCORDO com os termos de aceite e políticas de privacidade</label>
+                        
+                    </div>
+                </div>
+                <div class="justify-content-center text-center mb-2">
+                    
+                    <button type="submit" class="btn btn-danger">Cadastrar</button>
+                </div>
+            </fieldset>
+          
+           
+
+        </form>
+    </section>
+    <div id="appFooter">
+    </div>
+    <script src="./js/carrinho.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <script>
+        feather.replace();
+    </script>
+    <script src="js/form.js"></script>
+    <script src="js/app.js" type="module"></script>
+</body>
+
+</html>
